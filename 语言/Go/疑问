@@ -1,0 +1,35 @@
+### 函数闭包
+
+``` go
+package main
+
+import "fmt"
+
+func getNumber() func() int {
+    i := 0
+    return func() int{
+        i+=1
+        return i
+    }
+}
+
+func main(){
+    nextNumber := getNumber()
+    fmt.Println(nextNumber())
+}
+```
+
+### 接口
+
+
+
+### error
+
+
+
+### defer
+
+
+
+
+
