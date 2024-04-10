@@ -945,3 +945,5 @@ mysql> EXPLAIN SELECT * FROM s1  UNION SELECT * FROM s2;
 
 ## SQL优化
 
+
+
